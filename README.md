@@ -160,7 +160,7 @@
 
 <h2>📁 Resource Structure</h2>
 
-<pre><code>mVehicleshop/
+<pre><code>mri_vehicleshopcustom/
   fxmanifest.lua
   config.lua
   shared/bridge.lua
