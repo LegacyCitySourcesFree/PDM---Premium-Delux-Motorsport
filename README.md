@@ -186,14 +186,6 @@
 <h3>2) Database</h3>
 <p>Import <code>sql.sql</code> into your database.</p>
 
-<h3>3) server.cfg</h3>
-<pre><code>ensure ox_lib
-ensure oxmysql
-ensure ox_target   # or qb-target
-ensure mVehicleshop</code></pre>
-
-<hr/>
-
 <h2>🔐 Admin Permissions (ACE / Enterprise)</h2>
 <p>
   Recommended for Qbox/MRI. Grant the permission to your admin group and assign your player:
