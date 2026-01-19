@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>mVehicleshop</h1>
+  <h1>Premium Delux Motorsport</h1>
   <p><b>Premium Vehicle Shop System for FiveM (Qbox / QBCore)</b></p>
   <p>Enterprise-grade structure • Modern NUI • NPC Vendor • Admin Panel (ACE) • Scalable Catalog</p>
 
