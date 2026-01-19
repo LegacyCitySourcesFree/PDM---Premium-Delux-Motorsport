@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <title>mVehicleshop</title>
+</head>
+<body>
+  <div id="app" class="hidden">
+    <div class="top">
+      <div class="title">
+        <h1 id="shopTitle">Loja</h1>
+        <p id="shopSub">Escolha seu veículo</p>
+      </div>
+
+      <div class="actions">
+        <button id="adminBtn" class="btn ghost hidden">Painel Admin</button>
+        <button id="closeBtn" class="btn">Fechar</button>
+      </div>
+    </div>
+
+    <div class="tabs" id="tabs"></div>
+
+    <div class="content">
+      <div class="grid" id="grid"></div>
+
+      <div class="side">
+        <div class="sideCard">
+          <div class="sideHeader">
+            <div>
+              <div class="sideTitle" id="selName">Selecione um veículo</div>
+              <div class="sideMeta" id="selMeta">—</div>
+            </div>
+            <div class="price" id="selPrice">$0</div>
+          </div>
+
+          <div class="preview" id="preview">
+            <img id="selImg" alt="preview" />
+          </div>
+
+          <div class="sideFooter">
+            <button id="buyBtn" class="btn big green" disabled>Comprar</button>
+          </div>
+        </div>
+
+        <div id="adminPanel" class="sideCard hidden">
+          <div class="sideTitle">Painel Admin</div>
+          <div class="form">
+            <input id="a_id" placeholder="ID (vazio = novo)" />
+            <input id="a_shop" placeholder="Shop (ex: pdm)" />
+            <input id="a_category" placeholder="Category (ex: super)" />
+            <input id="a_model" placeholder="Model (ex: adder)" />
+            <input id="a_label" placeholder="Nome (label)" />
+            <input id="a_price" placeholder="Preço" />
+            <input id="a_stock" placeholder="Estoque" />
+            <input id="a_image" placeholder="Imagem URL (opcional)" />
+
+            <div class="row">
+              <button id="saveBtn" class="btn green">Salvar</button>
+              <button id="delBtn" class="btn danger">Deletar</button>
+            </div>
+          </div>
+          <div class="hint">Dica: clique em um veículo na lista pra puxar os dados e editar.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
